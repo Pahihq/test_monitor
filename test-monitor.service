@@ -4,4 +4,4 @@ After=network.target
 
 [Service]
 Type=oneshot
-ExecStart=/home/user/1.sh
+ExecStart=/usr/bin/test_monitor.sh
